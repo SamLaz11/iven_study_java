@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        final ConsoleWriter consoleWriter = new ConsoleWriter("Hello World");
-        consoleWriter.write();
+        /*Удалить в каждом слове букву стоящею по середине, если нет середины-то ниче не делать.*/
+        new SentenceToWordSplitter();
     }
 }
