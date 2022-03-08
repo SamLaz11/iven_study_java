@@ -1,5 +1,5 @@
 public class SentenceToWordSplitter {
-    public String[] split(String sentence) throws NullPointerException{
+    public String[] split(String sentence) throws NullPointerException,NegativeArraySizeException {
         String[] result;
         if(sentence == null){
             throw new NullPointerException("Sentence must not null lenght");
